@@ -24,5 +24,10 @@ namespace HelloWPF
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("안녕~ 이번주는 수요일까지~","너무 졸려",MessageBoxButton.YesNo,MessageBoxImage.Question);
+        }
     }
 }
